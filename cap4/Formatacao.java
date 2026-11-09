@@ -6,5 +6,6 @@ public class Formatacao{
       IO.println("------");
       IO.println(pi);
       IO.println(String.format("'%8.2f'",pi));
+      IO.println("'%10s é %04d'".formatted("Java",10));
   }
 }
